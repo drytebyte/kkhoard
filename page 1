@@ -1,0 +1,16 @@
+# Navigate to your project directory
+cd your-project-folder
+
+# Initialize a git repo
+git init
+
+# Add remote origin (replace with your actual repo URL)
+git remote add origin https://github.com/yourusername/ecommerce-store.git
+
+# Stage and commit all files
+git add .
+git commit -m "Initial commit of eCommerce website"
+
+# Set main branch and push
+git branch -M main
+git push -u origin main
